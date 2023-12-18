@@ -9,7 +9,7 @@ import YouTube from "react-youtube"; // Import the YouTube component
 
 export default function Documentary() {
   return (
-    <section className="padding-container max-container my-20 lg:my-20">
+    <section className="padding-container max-container my-22 lg:my-22">
       <div className="justify-center lg:px-20">
         <div className="lg:ml-10 mb-4 lg:mb-4">
           <Link href={"/work"} className="items-start">

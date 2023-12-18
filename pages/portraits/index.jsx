@@ -14,7 +14,7 @@ export default function Portraits() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <section className="padding-container max-container  mt-16 lg:mt-20">
+    <section className="padding-container max-container  mt-16 mb-10  lg:mt-20 lg:mb-0">
       <div className="justify-center lg:px-12">
         <div className="lg:ml-10">
           <Link href={"/work"} className="  items-start">
