@@ -17,7 +17,7 @@ const Logo = () => {
 
       {/* Logo for smaller screens */}
       <span className="lg:hidden text-sm bold-16 font-bold">
-        <Image src={"/logo1.png"} alt="img-logo" height={80} width={80} />
+        <Image src={"/logo3.png"} alt="img-logo" height={80} width={80} />
       </span>
     </div>
   );

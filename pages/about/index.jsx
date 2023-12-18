@@ -86,7 +86,7 @@ const About = () => {
               <span>100%</span>
             </div>
             <div className="relative bg-tertiary h-3 w-full rounded-full">
-              <span className="absolute top-0 left-0 h-full w-[100%] bg-[#db274b] rounded-full animate-pulse"></span>
+              <span className="absolute top-0 left-0 h-full w-[100%] bg-[#d21502] rounded-full animate-pulse"></span>
             </div>
           </div>
           <div>
@@ -95,7 +95,7 @@ const About = () => {
               <span>100%</span>
             </div>
             <div className="relative bg-tertiary h-3 w-full rounded-full">
-              <span className="absolute top-0 left-0 h-full w-[100%] bg-[#bd1743] rounded-full animate-pulse"></span>
+              <span className="absolute top-0 left-0 h-full w-[100%] bg-[#b80f0a] rounded-full animate-pulse"></span>
             </div>
           </div>
           <div>
@@ -104,7 +104,7 @@ const About = () => {
               <span>100%</span>
             </div>
             <div className="relative bg-tertiary h-3 w-full rounded-full">
-              <span className="absolute top-0 left-0 h-full w-[100%] bg-[#ad0712] rounded-full animate-pulse"></span>
+              <span className="absolute top-0 left-0 h-full w-[100%] bg-[#990f02] rounded-full animate-pulse"></span>
             </div>
           </div>
           <div>
@@ -113,7 +113,7 @@ const About = () => {
               <span>95%</span>
             </div>
             <div className="relative bg-gray-700 h-3 w-full rounded-full">
-              <span className="absolute top-0 left-0 h-full w-[95%] bg-[#890212] rounded-full animate-pulse"></span>
+              <span className="absolute top-0 left-0 h-full w-[95%] bg-[#670c07] rounded-full animate-pulse"></span>
             </div>
           </div>
         </div>
