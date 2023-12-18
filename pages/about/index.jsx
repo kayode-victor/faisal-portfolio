@@ -35,7 +35,7 @@ const About = () => {
           <div className="flex py-4 lg:py-2 lg:flex flex-1 px-2 gap-2">
             <div className="relative flex-1 px-4 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
               <h4 className="text-secondary font-extrabold text-2xl">
-                <CountUp start={900} end={1000} duration={5} delay={1} />+
+                <CountUp start={150} end={200} duration={5} delay={1} />+
               </h4>
               <p className="uppercase text-[13px] font-bold leading-4 pt-2">
                 Happy clients
