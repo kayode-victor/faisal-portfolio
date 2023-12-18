@@ -15,7 +15,7 @@ const Nav = () => {
             href={link.path}
             className={`${
               link.path === pathname && "text-secondary"
-            } flexCenter hover:text-tertiary p-2 group relative`}
+            } flexCenter hover:text-secondary p-2 group relative`}
           >
             <div className="bg-white text-black absolute right-16 border rounded p-1 items-center hidden xl:group-hover:flex">
               <div className="text-[16px] px-4 py-2 font-semibold text-gray-50 capitalize leading-none">

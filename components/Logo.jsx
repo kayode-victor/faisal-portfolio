@@ -11,7 +11,7 @@ const Logo = () => {
         <Image src={"/logo1.png"} alt="img-logo" height={130} width={130} />
         <div>
           <h2 className="bold-40 font-bold">DASH-MEDIA</h2>
-          <p className="text-tertiary medium-20">Capturing Life Creatively</p>
+          <p className="text-secondary medium-20">Capturing Life Creatively</p>
         </div>
       </div>
 
