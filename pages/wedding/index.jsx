@@ -55,7 +55,7 @@ export default function Wedding() {
         </div>
 
         {/* Thumbnail */}
-        <div className="pt-2 pb-5">
+        <div className="pt-5 pb-5 lg:mt-3">
           <Swiper
             onSwiper={setThumbsSwiper}
             loop={true}
@@ -68,7 +68,7 @@ export default function Wedding() {
           >
             {weddingData.map((wedding, i) => (
               <SwiperSlide key={i}>
-                <div className="flex w-full h-full items-center justify-center">
+                <div className="flex w-full h-8 items-center justify-center">
                   <Image
                     src={wedding.src}
                     alt={wedding.alt}
