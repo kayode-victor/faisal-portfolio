@@ -17,19 +17,22 @@ const About = () => {
         className="flex flex-1 flex-col flexCenter text-center lg:text-start lg:justify-start mt-10 lg:mt-0"
       >
         <div>
-          <h2 className="h2  lg:py-2">
-            Photographer & <span className="text-secondary">Film</span>Maker
-          </h2>
-          <p className="text-start text-[14px] lg:text-[18px] px-2 my-5 lg:py-2 lg:text-start lg:px-3 lg:mb-5">
-            Hi, I am Faisal Gidado, the creative force behind Dash Media in
-            Lagos. With a degree in Screen Production, I use photography to
-            capture moments uniquely. Since 2017, Dash Media has been delivering
-            premium Photography, Cinematography, and Editing services, both
-            locally and globally.
-          </p>
+          <div>
+            <h2 className="h2  lg:py-2">
+              Photographer & <span className="text-secondary">Film</span>Maker
+            </h2>
+            <p className="text-start text-[14px] lg:text-[18px] px-2 my-5 lg:py-2 lg:text-start lg:px-3 lg:mb-5">
+              Hi, I am Faisal Gidado, the creative force behind Dash Media in
+              Lagos. With a degree in Screen Production, I use photography to
+              capture moments uniquely. Since 2017, Dash Media has been
+              delivering premium Photography, Cinematography, and Editing
+              services, both locally and globally.
+            </p>
+          </div>
         </div>
+
         <div className="mb-2">
-          <div className="flex py-4 lg:py-2 lg:flex flex-1 gap-2">
+          <div className="flex py-4 lg:py-2 lg:flex flex-1 px-2 gap-2">
             <div className="relative flex-1 px-4 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
               <h4 className="text-secondary font-extrabold text-2xl">
                 <CountUp start={900} end={1000} duration={5} delay={1} />+
