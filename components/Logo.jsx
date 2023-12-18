@@ -3,7 +3,7 @@ import Image from "next/image";
 const Logo = () => {
   return (
     <div
-      className="fixed bottom-24 left-1 lg:left-2 lg:bottom-10 lg:p-x4 px-2 py-4 z-50 
+      className="fixed bottom-24 left-1 lg:left-2 lg:bottom-10 lg:p-x4 px-2 py-4 z-20 
     "
     >
       {/* Logo for large screens */}
