@@ -62,7 +62,7 @@ const Home = () => {
         <motion.span
           className="bg-secondary blur-lg h-60 w-60 lg:h-[400px] lg:w-[400px] xl:h-[500px] xl:w-[500px] absolute  rounded-br-none rounded-full -z-10 lg:top-10 lg:right-10"
           animate={{
-            backgroundColor: ["#45a29e", "#66fcf1"],
+            backgroundColor: ["#dc143c", "#db274b"],
             transition: { duration: 10, repeat: Infinity, ease: "easeInOut" },
           }}
         ></motion.span>
