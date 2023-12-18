@@ -8,7 +8,7 @@ const Logo = () => {
     >
       {/* Logo for large screens */}
       <div className="hidden lg:flex items-center">
-        <Image src={"/logo1.png"} alt="img-logo" height={130} width={130} />
+        <Image src={"/logo2.png"} alt="img-logo" height={130} width={130} />
         <div>
           <h2 className="bold-40 font-bold">DASH-MEDIA</h2>
           <p className="text-secondary medium-20">Capturing Life Creatively</p>
