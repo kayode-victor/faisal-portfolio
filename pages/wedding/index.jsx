@@ -14,10 +14,10 @@ export default function Wedding() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
   return (
-    <section className="padding-container max-container mt-16 mb-10  lg:mt-20 lg:mb-0">
+    <section className="padding-container max-container mt-16 mb-10  lg:mt-20 lg:mb-5">
       <div className="justify-center lg:px-12">
         <div className="lg:ml-10">
-          <Link href={"/work"} className="  items-start">
+          <Link href={"/work"} className="items-start">
             <p className="text-white font-medium">go back</p>
           </Link>
         </div>
@@ -72,8 +72,8 @@ export default function Wedding() {
                   <Image
                     src={wedding.src}
                     alt={wedding.alt}
-                    width={400}
-                    height={400}
+                    width={200}
+                    height={200}
                     className="block h-full w-full object-cover"
                   />
                 </div>

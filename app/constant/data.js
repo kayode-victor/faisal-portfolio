@@ -100,7 +100,7 @@ export const worksData = [
   },
   {
     icon: <FaVideo />,
-    title: "All Videos",
+    title: "Videos",
     link: "/cinematography",
   },
 ];
