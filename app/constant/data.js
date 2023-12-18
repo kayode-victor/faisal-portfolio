@@ -6,7 +6,7 @@ import {
   HiEnvelope,
 } from "react-icons/hi2";
 
-import { FaImage, FaImages } from "react-icons/fa";
+import { FaImage, FaImages, FaVideo } from "react-icons/fa";
 
 //nav Data
 export const navData = [
@@ -86,37 +86,22 @@ export const worksData = [
   {
     icon: <FaImages />,
     title: "Portraits",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, obcaecati.",
     link: "/portraits",
   },
   {
     icon: <FaImages />,
     title: "Wedding",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, obcaecati.",
     link: "/wedding",
   },
   {
     icon: <FaImages />,
     title: "Commercial",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, obcaecati.",
     link: "/commercial",
   },
   {
-    icon: <FaImages />,
-    title: "Cinematography",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, obcaecati.",
+    icon: <FaVideo />,
+    title: "All Videos",
     link: "/cinematography",
-  },
-  {
-    icon: <FaImages />,
-    title: "Documentary",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, obcaecati.",
-    link: "/documentary",
   },
 ];
 
@@ -306,16 +291,14 @@ export const commercialData = [
 ];
 export const cinematographyData = [
   {
-    videoSrc: "https://www.youtube.com/watch?v=AOnuf3rmWlw",
-    alt: "Image 1",
+    videoSrc: "https://youtu.be/5Tslorh2N2M",
+  },
+
+  {
+    videoSrc: "https://youtu.be/yv08iNnd1ig",
   },
   {
-    videoSrc: "https://www.youtube.com/watch?v=AOnuf3rmWlw",
-    alt: "Image 1",
-  },
-  {
-    videoSrc: "https://www.youtube.com/watch?v=AOnuf3rmWlw",
-    alt: "Image 1",
+    videoSrc: "https://youtube.com/shorts/mFomxOimGg4",
   },
 ];
 export const documentaryData = [
