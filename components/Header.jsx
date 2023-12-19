@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <header className="sticky-header padding-container max-container flex gap-4 flexBetween py-3">
       <Link href="/" className="bold-28 text-white">
-        Fasial <span className="regular-28 text-secondary">Gidado</span>
+        Faisal <span className="regular-28 text-secondary">Gidado</span>
       </Link>
       <Link
         href="/contact"

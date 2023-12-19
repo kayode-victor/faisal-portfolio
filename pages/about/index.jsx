@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div className="relative flex-1 px-4 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
               <h4 className="text-secondary font-extrabold text-2xl">
-                <CountUp start={0} end={5} duration={5} delay={1} />+
+                <CountUp start={4} end={9} duration={5} delay={1} />+
               </h4>
               <p className="uppercase text-[13px] font-bold leading-4 pt-2">
                 year experience
