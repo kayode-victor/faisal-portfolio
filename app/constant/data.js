@@ -297,7 +297,4 @@ export const cinematographyData = [
   {
     videoSrc: "https://youtu.be/5anH_g1DLvs",
   },
-  {
-    videoSrc: "https://youtube.com/shorts/iW8vvFHws0g?feature=share",
-  },
 ];
