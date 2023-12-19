@@ -22,7 +22,7 @@ const Home = () => {
               words={[
                 " I'm a Photographer.",
                 " I'm a Film Maker.",
-                " I create Arts.",
+                " I create Art.",
               ]}
               loop={true}
               cursor
@@ -37,6 +37,10 @@ const Home = () => {
         <p className="py-3 text-[20px]  font-medium text-center">
           &apos;&apos; Life is a blank canvas and I&apos;m filling it with
           creativity &apos;&apos;
+        </p>
+        <p className="py-2 text-[24px]">
+          <span className="font-light text-white"> Quebec,</span>
+          <span className="font-normal text-secondary">Canada</span>
         </p>
         {/*social media links*/}
         <div className="flex items-center justify-center">

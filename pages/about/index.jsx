@@ -101,10 +101,10 @@ const About = () => {
           <div>
             <div className="flexBetween text-sm text-gray-20">
               <span>Digital Imaging </span>
-              <span>95%</span>
+              <span>100%</span>
             </div>
             <div className="relative bg-gray-700 h-3 w-full rounded-full">
-              <span className="absolute top-0 left-0 h-full w-[95%] bg-[#670c07] rounded-full animate-pulse"></span>
+              <span className="absolute top-0 left-0 h-full w-[100%] bg-[#670c07] rounded-full animate-pulse"></span>
             </div>
           </div>
         </div>
