@@ -2,11 +2,12 @@ import { HiArrowRight } from "react-icons/hi2";
 import { motion } from "framer-motion";
 import fadeIn from "@/components/Variants";
 import Socialicons from "@/components/Socialicons";
+
 const Contact = () => {
   return (
     <section className="max-container paddoing-container py-12 mt-10 lg:mt-16">
       <div className="flex flex-col gap-4">
-        {/*title*/}
+        {/* title */}
         <motion.div
           variants={fadeIn("down", 0.4)}
           initial="hidden"
@@ -23,6 +24,8 @@ const Contact = () => {
         </motion.div>
         {/* form */}
         <motion.form
+          action="https://formspree.io/f/moqgawqj"
+          method="POST"
           variants={fadeIn("up", 0.4)}
           initial="hidden"
           animate="show"
@@ -32,17 +35,23 @@ const Contact = () => {
           <div className="flex gap-2 w-full">
             <input
               type="text"
+              required
+              name="name"
               placeholder="Enter Your Name"
               className="regular-16 placeholder:text-white rounded-full px-4 py-1 bg-gray-600 outline-none w-1/2"
             />
             <input
               type="email"
+              name="email"
+              required
               placeholder="Enter Your Email"
               className="regular-16 placeholder:text-white rounded-full px-4 py-1 bg-gray-600 outline-none w-1/2"
             />
           </div>
           <input
-            type="email"
+            type="text"
+            required
+            name="subject"
             placeholder="Enter Your Subject"
             className="regular-16 placeholder:text-white rounded-full px-4 py-1 bg-gray-600 outline-none w-full"
           />
@@ -50,10 +59,15 @@ const Contact = () => {
             id=""
             cols="10"
             rows="5"
+            required
+            name="message"
             placeholder="Enter message"
             className="regular-16 placeholder:text-white rounded-xl px-4 py-1 bg-gray-600 outline-none"
           ></textarea>
-          <button className="btn_dark_rounded px-4 py-2 rounded-full flexCenter gap-1 font-semibold ">
+          <button
+            type="submit"
+            className="btn_dark_rounded px-4 py-2 rounded-full flexCenter gap-1 font-semibold "
+          >
             Send Message
             <span>
               <HiArrowRight />
@@ -65,7 +79,7 @@ const Contact = () => {
           <p className="mx-4 medium-14">or</p>
           <hr className="border-none bg-gray-50 h-[1px] w-[40%] my-4 text-center" />
         </div>
-        {/*social media links*/}
+        {/* social media links */}
         <div className="flex items-center justify-center">
           <Socialicons />
         </div>

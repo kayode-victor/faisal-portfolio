@@ -64,7 +64,7 @@
 
 @layer utilities {
   .btn_dark_rounded {
-    @apply bg-secondary text-white border-[#383838] border transition-all hover:bg-tertiary hover:text-[#121212] hover:animate-pulse;
+    @apply bg-secondary text-white border-[#383838] border transition-all hover:bg-white hover:text-secondary hover:animate-pulse;
   }
   .btn_dalightrk_rounded {
     @apply bg-tertiary text-white border-[#383838] border transition-all hover:bg-secondary;

@@ -291,31 +291,13 @@ export const commercialData = [
 ];
 export const cinematographyData = [
   {
-    videoSrc: "https://youtu.be/5Tslorh2N2M",
+    videoSrc: "https://youtu.be/mCz8uUS72gA",
   },
 
   {
-    videoSrc: "https://youtu.be/yv08iNnd1ig",
+    videoSrc: "https://youtu.be/5anH_g1DLvs",
   },
   {
-    videoSrc: "https://youtube.com/shorts/mFomxOimGg4",
-  },
-];
-export const documentaryData = [
-  {
-    videoSrc: "https://www.youtube.com/watch?v=AOnuf3rmWlw",
-    alt: "Image 1",
-  },
-  {
-    videoSrc: "https://www.youtube.com/watch?v=AOnuf3rmWlw",
-    alt: "Image 1",
-  },
-  {
-    videoSrc: "https://www.youtube.com/watch?v=AOnuf3rmWlw",
-    alt: "Image 1",
-  },
-  {
-    videoSrc: "https://www.youtube.com/watch?v=AOnuf3rmWlw",
-    alt: "Image 1",
+    videoSrc: "https://youtube.com/shorts/iW8vvFHws0g?feature=share",
   },
 ];

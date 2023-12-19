@@ -9,7 +9,7 @@ import YouTube from "react-youtube"; // Import the YouTube component
 
 export default function Cinematography() {
   return (
-    <section className="padding-container max-container my-22 lg:my-22">
+    <section className="padding-container  max-container my-16 lg:my-24">
       <div className="justify-center lg:px-20">
         <div className="lg:ml-10 mb-4 lg:mb-4">
           <Link href={"/work"} className="items-start">
@@ -17,7 +17,7 @@ export default function Cinematography() {
           </Link>
         </div>
         {/* Display Videos */}
-        <div className="pb-12">
+        <div className="">
           <Swiper
             loop={true}
             spaceBetween={10}
