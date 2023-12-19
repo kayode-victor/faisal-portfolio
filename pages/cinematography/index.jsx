@@ -13,7 +13,9 @@ export default function Cinematography() {
       <div className="justify-center lg:px-20">
         <div className="lg:ml-10 mb-4 lg:mb-4">
           <Link href={"/work"} className="items-start">
-            <p className="text-white font-medium">go back</p>
+            <p className="text-white hover:text-secondary font-medium">
+              go back
+            </p>
           </Link>
         </div>
         {/* Display Videos */}
