@@ -268,10 +268,7 @@ export const commercialData = [
     src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894596/Commercial-3_racepn.jpg",
     alt: "Image 3",
   },
-  {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894592/Commercial-2_v36vae.jpg",
-    alt: "Image 4",
-  },
+
   {
     src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894598/Commercial-5_jzcbxb.jpg",
     alt: "Image 5",
