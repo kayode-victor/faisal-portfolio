@@ -9,20 +9,18 @@ import YouTube from "react-youtube"; // Import the YouTube component
 
 export default function Cinematography() {
   return (
-    <section className="padding-container  max-container my-16 lg:my-24">
-      <div className="justify-center lg:px-20">
-        <div className="lg:ml-10 mb-4 lg:mb-4">
-          <div className="text-center py-3">
-            <p className="text-white text-[16px] lg:text-[20px]">
-              <Link
-                href={"/work"}
-                className="hover:text-secondary hover:underline font-medium"
-              >
-                Album
-              </Link>
-              <span> / All Videos</span>
-            </p>
-          </div>
+    <section className="padding-container  max-container  mt-16 mb-10  lg:mt-20 lg:mb-10">
+      <div className="justify-center px-10 lg:px-16">
+        <div className="text-center py-3">
+          <p className="text-white text-[16px] lg:text-[20px]">
+            <Link
+              href={"/work"}
+              className="hover:text-secondary hover:underline font-medium"
+            >
+              Album
+            </Link>
+            <span> / All Videos</span>
+          </p>
         </div>
         {/* Display Videos */}
         <div className="">
@@ -36,10 +34,12 @@ export default function Cinematography() {
             {cinematographyData.map((cinematography, i) => (
               <SwiperSlide key={i}>
                 <div className="flex items-center justify-center">
-                  <YouTube
-                    videoId={getYouTubeVideoId(cinematography.videoSrc)}
-                    opts={{ width: "420", height: "350" }}
-                  />
+                  <div className="video-container mt-12 mb-28 lg:mt-0 lg:mb-0  lg:mx-20">
+                    <YouTube
+                      videoId={getYouTubeVideoId(cinematography.videoSrc)}
+                      opts={{ width: "100%", height: "70%" }}
+                    />
+                  </div>
                 </div>
               </SwiperSlide>
             ))}
