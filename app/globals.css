@@ -281,10 +281,15 @@
 /* Add this to your CSS or Tailwind CSS */
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio, adjust as needed */
-  width: 100%;
+  padding-bottom: 40.25%; /* 16:9 aspect ratio, adjust as needed */
+  width: 55%;
 }
-
+@media (max-width: 991px) {
+  .video-container {
+    width: 100%;
+    padding-bottom: 65.25%; /* 16:9 aspect ratio, adjust as needed */
+  }
+}
 iframe {
   position: absolute;
   top: 0;

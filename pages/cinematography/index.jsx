@@ -37,7 +37,6 @@ export default function Cinematography() {
                   <div className="video-container mt-12 mb-28 lg:mt-0 lg:mb-0  lg:mx-20">
                     <YouTube
                       videoId={getYouTubeVideoId(cinematography.videoSrc)}
-                      opts={{ width: "100%", height: "70%" }}
                     />
                   </div>
                 </div>

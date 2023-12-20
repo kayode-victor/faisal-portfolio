@@ -77,8 +77,8 @@ const Work = () => {
           >
             {worksData.map((work, i) => (
               <SwiperSlide key={i}>
-                <div className="bg-gray-800 px-8 py-12 rounded-lg h-max flex flex-col gap-4 relative hover:bg-secondary  w-[70%] sm:w-full mx-auto group">
-                  <Link href={work.link}>
+                <Link href={work.link}>
+                  <div className="bg-gray-800 px-8 py-12 rounded-lg h-max flex flex-col gap-4 relative hover:bg-secondary  w-[70%] sm:w-full mx-auto group">
                     <div className="text-secondary place-self-end text-5xl group-hover:text-gray-950">
                       {work.icon}
                     </div>
@@ -89,8 +89,8 @@ const Work = () => {
                     <div className="font-extrabold text-secondary bg-primary border-secondary border-[3px] h-10 w-10 flexCenter rounded-full absolute left-1/2 -bottom-6 opacity-0 group-hover:opacity-100 group-hover:translate-x-20 transition-all duration-500 -rotate-45">
                       <FaArrowRight />
                     </div>
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>
