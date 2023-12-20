@@ -7,7 +7,7 @@ import fadeIn from "@/components/Variants";
 const About = () => {
   const [index, setIndex] = useState(0);
   return (
-    <section className="padding-container max-container lg:page flex flex-col flexCenter lg:flex-row lg:gap-10 mt-16 lg:mt-0">
+    <section className="padding-container max-container lg:page flex flex-col flexCenter lg:flex-row lg:gap-10 mt-16 mb-16 lg:mb-4 lg:mt-0">
       {/*left*/}
       <motion.div
         variants={fadeIn("left", 0.4)}

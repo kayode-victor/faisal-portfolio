@@ -1,87 +1,65 @@
 import { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, FreeMode, Navigation, Thumbs } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/navigation";
-import "swiper/css/thumbs";
-import "swiper/css/autoplay";
 import { portraitData } from "@/app/constant/data";
 import Image from "next/image";
 import Link from "next/link";
+import { IoClose } from "react-icons/io5";
 
 export default function Portraits() {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
-
+  const [model, setModel] = useState(false);
+  const [tempSrc, setTempSrc] = useState("");
+  const getImg = (src) => {
+    setTempSrc(src);
+    setModel(true);
+  };
+  const closeModal = () => {
+    setModel(false);
+  };
   return (
     <section className="padding-container max-container  mt-16 mb-10  lg:mt-20 lg:mb-0">
-      <div className="justify-center lg:px-12">
-        <div className="lg:ml-10">
-          <Link href={"/work"} className="  items-start">
-            <p className="text-white hover:text-secondary font-medium">
-              go back
-            </p>
-          </Link>
+      <div className="justify-center px-10 lg:px-16">
+        <div className="text-center py-3">
+          <p className="text-white text-[16px] lg:text-[20px]">
+            <Link
+              href={"/work"}
+              className="hover:text-secondary hover:underline font-medium"
+            >
+              Album
+            </Link>
+            <span> / Portrait Photos</span>
+          </p>
         </div>
-        {/* display */}
-        <div className="px-1">
-          <Swiper
-            loop={true}
-            spaceBetween={10}
-            navigation={true}
-            thumbs={{
-              swiper:
-                thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
-            }}
-            autoplay={{
-              delay: 10000, // Adjust the delay as needed (in milliseconds)
-              disableOnInteraction: false,
-            }}
-            modules={[FreeMode, Navigation, Autoplay, Thumbs]}
-            className="h-96 w-full rounded-lg"
-          >
-            {portraitData.map((portrait, i) => (
-              <SwiperSlide key={i}>
-                <div className="flex w-full h-full items-center justify-center">
-                  <Image
-                    src={portrait.src}
-                    alt={portrait.alt}
-                    width={400}
-                    height={400}
-                    className="block h-full w-full object-contain rounded-lg"
-                  />
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+        {/*Images*/}
+        <div className={model ? "modal open" : "modal"} onClick={closeModal}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <Image
+              src={tempSrc}
+              alt="Art by Faisal G"
+              layout="responsive"
+              width={800}
+              height={800}
+            />
+            <IoClose onClick={() => setModel(false)} />
+          </div>
         </div>
-
-        {/* Thumbnail */}
-        <div className="pt-2 pb-5">
-          <Swiper
-            onSwiper={setThumbsSwiper}
-            loop={true}
-            spaceBetween={3}
-            slidesPerView={5}
-            freeMode={true}
-            watchSlidesProgress={true}
-            modules={[FreeMode, Navigation, Thumbs]}
-            className="thumbs w-full"
-          >
-            {portraitData.map((portrait, i) => (
-              <SwiperSlide key={i}>
-                <div className="flex w-full h-full items-center justify-center">
-                  <Image
-                    src={portrait.src}
-                    alt={portrait.alt}
-                    width={400}
-                    height={400}
-                    className="block h-full w-full object-cover"
-                  />
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+        <div className="gallery mb-4">
+          {portraitData.map((portrait, i) => {
+            return (
+              <div
+                className="pics"
+                key={i}
+                onClick={() => getImg(portrait.src)}
+              >
+                <Image
+                  className="rounded-lg"
+                  src={portrait.src}
+                  alt={portrait.alt}
+                  layout="responsive" // Important for responsive behavior
+                  width={1000} // Set an appropriate width (adjust as needed)
+                  height={600} // Set an appropriate height (adjust as needed)
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

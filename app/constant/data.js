@@ -6,7 +6,7 @@ import {
   HiEnvelope,
 } from "react-icons/hi2";
 
-import { FaImage, FaImages, FaVideo } from "react-icons/fa";
+import { FaImages, FaVideo } from "react-icons/fa";
 
 //nav Data
 export const navData = [
@@ -46,17 +46,22 @@ export const aboutData = [
       {
         title: "Photographer & Cinematographer - Dash Media",
         other: "Founder of Dash Media",
-        year: "2018 - 2024",
+        year: "2014 - 2024",
       },
       {
-        title: "Volunteer - Gidado Won Foundation",
-        other: "Volunteer Work",
-        year: "2016 - 2024",
+        title: "Photographer - Shabab Al-Ahli Football Club",
+        other: "Media Coverage during home games.",
+        year: "2015 - 2016",
       },
       {
-        title: "Photographer - PEPC Foundation",
-        other: "Photographer of Event",
-        year: "2020",
+        title: "Photographer - Shabab Al-Ahli Football Club",
+        other: "Media Coverage during home games.",
+        year: "2016 - 2017",
+      },
+      {
+        title: "Photographer & Cinematographer - Corporate Studios",
+        other: "Created pictures for high profile individuals",
+        year: "2021 - 2022",
       },
     ],
   },
@@ -225,30 +230,17 @@ export const weddingData = [
     src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894318/wedding-3_qzvrqa.jpg",
     alt: "Image 3",
   },
-
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894349/wedding-6_hgdkzi.jpg",
-    alt: "Image 6",
-  },
-  {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894313/wedding-7_golrzk.jpg",
-    alt: "Image 7",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894341/wedding-10_piblqi.jpg",
+    alt: "Image 10",
   },
   {
     src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894361/wedding-8_on6ibr.jpg",
     alt: "Image 8",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894348/wedding-9_i3xrzm.jpg",
-    alt: "Image 9",
-  },
-  {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894341/wedding-10_piblqi.jpg",
-    alt: "Image 10",
-  },
-  {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894348/wedding-11_jbn9uh.jpg",
-    alt: "Image 11",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894313/wedding-7_golrzk.jpg",
+    alt: "Image 7",
   },
 ];
 export const commercialData = [
