@@ -54,8 +54,8 @@ export const aboutData = [
         year: "2015 - 2016",
       },
       {
-        title: "Photographer - Shabab Al-Ahli Football Club",
-        other: "Media Coverage during home games.",
+        title: "Photographer - Emirates Airline Festival of Literature",
+        other: "Participated in the festival's media coverage.",
         year: "2016 - 2017",
       },
       {
@@ -219,28 +219,40 @@ export const portraitData = [
 ];
 export const weddingData = [
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894315/wedding-1_yuyx18.jpg",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034165/wedding-img/wedding-1_zcozno.jpg",
     alt: "Image 1",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894316/wedding-2_i2uobw.jpg",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034165/wedding-img/wedding-2_bcqmlw.jpg",
     alt: "Image 2",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894318/wedding-3_qzvrqa.jpg",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034165/wedding-img/wedding-3_kh5my7.jpg",
     alt: "Image 3",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894341/wedding-10_piblqi.jpg",
-    alt: "Image 10",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034180/wedding-img/wedding-9_jvpjzg.jpg",
+    alt: "Image 7",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894361/wedding-8_on6ibr.jpg",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034176/wedding-img/wedding-10_c30kku.jpg",
     alt: "Image 8",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894313/wedding-7_golrzk.jpg",
-    alt: "Image 7",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034176/wedding-img/wedding-11_lo1i6w.jpg",
+    alt: "Image 9",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034176/wedding-img/wedding-6_ae2lfd.jpg",
+    alt: "Image 4",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034176/wedding-img/wedding-7_clzh8t.jpg",
+    alt: "Image 5",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034176/wedding-img/wedding-8_bif1f9.jpg",
+    alt: "Image 6",
   },
 ];
 export const commercialData = [
