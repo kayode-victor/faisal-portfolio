@@ -2,17 +2,32 @@ import { useState } from "react";
 import { commercialData } from "@/app/constant/data";
 import Image from "next/image";
 import Link from "next/link";
-import { IoClose } from "react-icons/io5";
+import { IoClose, IoArrowForward, IoArrowBack } from "react-icons/io5";
 
 export default function Commercial() {
   const [model, setModel] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [tempSrc, setTempSrc] = useState("");
-  const getImg = (src) => {
-    setTempSrc(src);
+
+  const openModal = (index) => {
+    setCurrentIndex(index);
+    setTempSrc(commercialData[index].src);
     setModel(true);
   };
   const closeModal = () => {
     setModel(false);
+  };
+  const nextImage = () => {
+    const nextIndex = (currentIndex + 1) % commercialData.length;
+    setCurrentIndex(nextIndex);
+    setTempSrc(commercialData[nextIndex].src);
+  };
+
+  const prevImage = () => {
+    const prevIndex =
+      (currentIndex - 1 + commercialData.length) % commercialData.length;
+    setCurrentIndex(prevIndex);
+    setTempSrc(commercialData[prevIndex].src);
   };
   return (
     <section className="padding-container max-container  mt-16 mb-10  lg:mt-20 lg:mb-0">
@@ -38,17 +53,15 @@ export default function Commercial() {
               width={800}
               height={800}
             />
-            <IoClose onClick={() => setModel(false)} />
+            <IoClose onClick={closeModal} className="close-icon" />
+            <IoArrowBack onClick={prevImage} className="nav-icon prev" />
+            <IoArrowForward onClick={nextImage} className="nav-icon next" />
           </div>
         </div>
         <div className="gallery mb-4">
           {commercialData.map((commercial, i) => {
             return (
-              <div
-                className="pics"
-                key={i}
-                onClick={() => getImg(commercial.src)}
-              >
+              <div className="pics" key={i} onClick={() => openModal(i)}>
                 <Image
                   className="rounded-lg"
                   src={commercial.src}
