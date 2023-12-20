@@ -3,7 +3,7 @@ import { portraitData } from "@/app/constant/data";
 import Image from "next/image";
 import Link from "next/link";
 import { IoClose, IoArrowForward, IoArrowBack } from "react-icons/io5";
-
+import "./style.css";
 export default function Portraits() {
   const [model, setModel] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
