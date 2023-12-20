@@ -2,8 +2,22 @@ import { HiArrowRight } from "react-icons/hi2";
 import { motion } from "framer-motion";
 import fadeIn from "@/components/Variants";
 import Socialicons from "@/components/Socialicons";
+import { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    window.onbeforeunload = () => {
+      for (const form of document.getElementsByTagName("form")) {
+        form.reset();
+      }
+    };
+
+    return () => {
+      // Cleanup function to remove the event listener when the component is unmounted
+      window.onbeforeunload = null;
+    };
+  }, []);
+
   return (
     <section className="max-container paddoing-container py-12 mt-10 lg:mt-16">
       <div className="flex flex-col gap-4">
