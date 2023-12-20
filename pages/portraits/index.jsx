@@ -3,7 +3,7 @@ import { portraitData } from "@/app/constant/data";
 import Image from "next/image";
 import Link from "next/link";
 import { IoClose, IoArrowForward, IoArrowBack } from "react-icons/io5";
-import "./style.css";
+
 export default function Portraits() {
   const [model, setModel] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -34,7 +34,7 @@ export default function Portraits() {
 
   return (
     <section className="padding-container max-container  mt-16 mb-10  lg:mt-20 lg:mb-0">
-      <div className="justify-center px-10 lg:px-16">
+      <div className="justify-center px-10 lg:px-16 ">
         <div className="text-center py-3">
           <p className="text-white text-[16px] lg:text-[20px]">
             <Link
@@ -61,16 +61,19 @@ export default function Portraits() {
             <IoArrowForward onClick={nextImage} className="nav-icon next" />
           </div>
         </div>
-        <div className="gallery mb-4">
+        <div className="gallery mb-4 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {portraitData.map((portrait, i) => (
-            <div className="pics" key={i} onClick={() => openModal(i)}>
+            <div
+              key={i}
+              className="pics cursor-pointer group relative rounded-3xl overflow-hidden hover:opacity-60 transition-opacity aspect-w-4 aspect-h-3"
+              onClick={() => openModal(i)}
+            >
               <Image
-                className="rounded-lg"
                 src={portrait.src}
                 alt={portrait.alt}
-                layout="responsive"
-                width={1000}
-                height={600}
+                className="object-cover w-full h-full group-hover:scale-105 transition-transform"
+                width={500}
+                height={500}
               />
             </div>
           ))}

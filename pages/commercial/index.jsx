@@ -58,17 +58,20 @@ export default function Commercial() {
             <IoArrowForward onClick={nextImage} className="nav-icon next" />
           </div>
         </div>
-        <div className="gallery mb-4">
+        <div className="gallery mb-4 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {commercialData.map((commercial, i) => {
             return (
-              <div className="pics" key={i} onClick={() => openModal(i)}>
+              <div
+                className="pics cursor-pointer group relative rounded-3xl overflow-hidden hover:opacity-60 transition-opacity aspect-w-4 aspect-h-3"
+                key={i}
+                onClick={() => openModal(i)}
+              >
                 <Image
-                  className="rounded-lg"
                   src={commercial.src}
                   alt={commercial.alt}
-                  layout="responsive" // Important for responsive behavior
-                  width={1000} // Set an appropriate width (adjust as needed)
-                  height={600} // Set an appropriate height (adjust as needed)
+                  className="object-cover w-full h-full group-hover:scale-105 transition-transform"
+                  width={500}
+                  height={500}
                 />
               </div>
             );
