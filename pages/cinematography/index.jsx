@@ -12,11 +12,17 @@ export default function Cinematography() {
     <section className="padding-container  max-container my-16 lg:my-24">
       <div className="justify-center lg:px-20">
         <div className="lg:ml-10 mb-4 lg:mb-4">
-          <Link href={"/work"} className="items-start">
-            <p className="text-white hover:text-secondary font-medium">
-              go back
+          <div className="text-center py-3">
+            <p className="text-white text-[16px] lg:text-[20px]">
+              <Link
+                href={"/work"}
+                className="hover:text-secondary hover:underline font-medium"
+              >
+                Album
+              </Link>
+              <span> / All Videos</span>
             </p>
-          </Link>
+          </div>
         </div>
         {/* Display Videos */}
         <div className="">
