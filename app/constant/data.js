@@ -46,22 +46,23 @@ export const aboutData = [
       {
         title: "Photographer & Cinematographer - Dash Media",
         other: "Founder of Dash Media",
-        year: "2014 - 2024",
+        year: "2014 - Present",
       },
       {
-        title: "Photographer - Shabab Al-Ahli Football Club",
-        other: "Media Coverage during home games.",
-        year: "2015 - 2016",
+        title: "Photographer & Cinematographer - Corporate Studios",
+        other: "Created pictures for high profile individuals",
+        year: "2021 - 2022",
       },
+
       {
         title: "Photographer - Emirates Airline Festival of Literature",
         other: "Participated in the festival's media coverage.",
         year: "2016 - 2017",
       },
       {
-        title: "Photographer & Cinematographer - Corporate Studios",
-        other: "Created pictures for high profile individuals",
-        year: "2021 - 2022",
+        title: "Photographer - Shabab Al-Ahli Football Club",
+        other: "Media Coverage during home games.",
+        year: "2015 - 2016",
       },
     ],
   },
@@ -69,9 +70,9 @@ export const aboutData = [
     title: "Education",
     info: [
       {
-        title: "Bachelor's, Media (Screen Production)",
-        other: "University of Mudrich, Dubai",
-        year: "2017",
+        title: "Diploma, Online Business Management",
+        other: "Trebas Institue, Quebec",
+        year: "2023",
       },
       {
         title: "Professional Certificate, Cinematography",
@@ -79,9 +80,9 @@ export const aboutData = [
         year: "2021",
       },
       {
-        title: "Diploma, Online Business Management",
-        other: "Trebas Institue, Quebec",
-        year: "2023",
+        title: "Bachelor's, Media (Screen Production)",
+        other: "University of Mudrich, Dubai",
+        year: "2017",
       },
     ],
   },
