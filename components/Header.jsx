@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { HiArrowRight } from "react-icons/hi2";
 
@@ -20,8 +21,16 @@ const Header = () => {
 
   return (
     <header className="sticky-header padding-container max-container flex gap-4 flexBetween py-3">
-      <Link href="/" className="bold-28 text-white">
-        Faisal <span className="regular-28 text-secondary">Gidado</span>
+      <Link href="/">
+        <div className="logoContainer">
+          <Image
+            src="/dashLogo.png"
+            alt="logo"
+            width={120}
+            height={20}
+            className="logoImage"
+          />
+        </div>{" "}
       </Link>
       <Link
         href="/contact"

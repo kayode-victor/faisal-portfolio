@@ -297,3 +297,19 @@ iframe {
   width: 100%;
   height: 100%;
 }
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .logoImage {
+    content: url("/smDashLogo.png");
+    width: 64px;
+    height: 64px;
+  }
+}
