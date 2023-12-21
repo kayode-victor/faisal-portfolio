@@ -157,137 +157,172 @@ export const testimonialData = [
 
 export const portraitData = [
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893702/portrait-2_bzrvip.jpg",
-    alt: "Image 1",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159171/faisal-gidado/portrait/portrait_1_qwkjxh.jpg",
+    alt: "Portrait-Image-1",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893715/portrait-20_omiznm.jpg",
-    alt: "Image 2",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159217/faisal-gidado/portrait/portrait_2_nk68ln.jpg",
+    alt: "Portrait-Image-2",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893716/portrait-18_slytqd.jpg",
-    alt: "Image 3",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159222/faisal-gidado/portrait/portrait_3_sgf8gf.jpg",
+    alt: "Portrait-Image-3",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893716/portrait-18_slytqd.jpg",
-    alt: "Image 4",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159247/faisal-gidado/portrait/portrait_4_zk1omg.jpg",
+    alt: "Portrait-Image-4",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893719/portrait-6_l3bhwz.jpg",
-    alt: "Image 5",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159227/faisal-gidado/portrait/portrait_5_bj2u13.jpg",
+    alt: "Portrait-Image-5",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893719/portrait-5_wbq58r.jpg",
-    alt: "Image 6",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159191/faisal-gidado/portrait/portrait_6_lx9nsr.jpg",
+    alt: "Portrait-Image-6",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893730/portrait-9_gpefbm.jpg",
-    alt: "Image 7",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159195/faisal-gidado/portrait/portrait_7_y7ajjd.jpg",
+    alt: "Portrait-Image-7",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893740/portrait-10_cdnusk.jpg",
-    alt: "Image 8",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159251/faisal-gidado/portrait/portrait_8_o9i8jq.jpg",
+    alt: "Portrait-Image-8",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893741/portrait-19_mgnjrf.jpg",
-    alt: "Image 9",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159278/faisal-gidado/portrait/portrait_9_rzmrza.jpg",
+    alt: "Portrait-Image-9",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893733/portrait-3_dazslv.jpg",
-    alt: "Image 10",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159267/faisal-gidado/portrait/portrait_10_m2n0df.jpg",
+    alt: "Portrait-Image-10",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893734/portrait-11_oid3ai.jpg",
-    alt: "Image 11",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159294/faisal-gidado/portrait/portrait_11_acpco4.jpg",
+    alt: "Portrait-Image-11",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893738/portrait-12_rrpa0x.jpg",
-    alt: "Image 12",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159236/faisal-gidado/portrait/portrait_12_nqxztq.jpg",
+    alt: "Portrait-Image-12",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893747/portrait-16_hbvhde.jpg",
-    alt: "Image 13",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159263/faisal-gidado/portrait/portrait_13_g7q5dt.jpg",
+    alt: "Portrait-Image-13",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893746/portrait-15_vnenfi.jpg",
-    alt: "Image 14",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159199/faisal-gidado/portrait/portrait_14_fgvho0.jpg",
+    alt: "Portrait-Image-14",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702893741/portrait-13_gvcvxg.jpg",
-    alt: "Image 15",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159203/faisal-gidado/portrait/portrait_15_qdu3kq.jpg",
+    alt: "Portrait-Image-15",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159277/faisal-gidado/portrait/portrait_17_j1pufy.jpg",
+    alt: "Portrait-Image-16",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159241/faisal-gidado/portrait/portrait_16_cg5fes.jpg",
+    alt: "Portrait-Image-17",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159237/faisal-gidado/portrait/portrait_18_x5p34i.jpg",
+    alt: "Portrait-Image-18",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159208/faisal-gidado/portrait/portrait_19_w7j6kd.jpg",
+    alt: "Portrait-Image-19",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703159212/faisal-gidado/portrait/portrait_20_wvsulo.jpg",
+    alt: "Portrait-Image-20",
   },
 ];
 export const weddingData = [
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034165/wedding-img/wedding-1_zcozno.jpg",
-    alt: "Image 1",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157105/faisal-gidado/wedding/wedding1_tmpzoi.jpg",
+    alt: "Wedding-Image-1",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034165/wedding-img/wedding-2_bcqmlw.jpg",
-    alt: "Image 2",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157343/faisal-gidado/wedding/wedding2_i1jdws.jpg",
+    alt: "Wedding-Image-2",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034165/wedding-img/wedding-3_kh5my7.jpg",
-    alt: "Image 3",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157367/faisal-gidado/wedding/wedding3_epicxc.jpg",
+    alt: "Wedding-Image-3",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034180/wedding-img/wedding-9_jvpjzg.jpg",
-    alt: "Image 7",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157416/faisal-gidado/wedding/wedding4_hk4eyw.jpg",
+    alt: "Wedding-Image-4",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034176/wedding-img/wedding-10_c30kku.jpg",
-    alt: "Image 8",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157433/faisal-gidado/wedding/wedding5_cdinss.jpg",
+    alt: "Wedding-Image-5",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034176/wedding-img/wedding-11_lo1i6w.jpg",
-    alt: "Image 9",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157471/faisal-gidado/wedding/wedding6_qbopyb.jpg",
+    alt: "Wedding-Image-6",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034176/wedding-img/wedding-6_ae2lfd.jpg",
-    alt: "Image 4",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157480/faisal-gidado/wedding/wedding7_t6zdbn.jpg",
+    alt: "Wedding-Image-7",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034176/wedding-img/wedding-7_clzh8t.jpg",
-    alt: "Image 5",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157487/faisal-gidado/wedding/wedding8_yxtapb.jpg",
+    alt: "Wedding-Image-8",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703034176/wedding-img/wedding-8_bif1f9.jpg",
-    alt: "Image 6",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157497/faisal-gidado/wedding/wedding9_qeydll.jpg",
+    alt: "Wedding-Image-9",
   },
 ];
 export const commercialData = [
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894588/Commercial-1_uibcve.jpg",
-    alt: "Image 1",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157778/faisal-gidado/commercial/product_1_acimcd.jpg",
+    alt: "product-Image-1",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894592/Commercial-2_v36vae.jpg",
-    alt: "Image 2",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157790/faisal-gidado/commercial/product_2_pikixr.jpg",
+    alt: "product-Image-2",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894596/Commercial-3_racepn.jpg",
-    alt: "Image 3",
-  },
-
-  {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894598/Commercial-5_jzcbxb.jpg",
-    alt: "Image 5",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157982/faisal-gidado/commercial/product_3_ezyqon.jpg",
+    alt: "product-Image-3",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894603/Commercial-6_lqzgcj.jpg",
-    alt: "Image 6",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157974/faisal-gidado/commercial/product_4_wpa4ut.jpg",
+    alt: "product-Image-4",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894569/Commercial-10_h9f2f6.jpg",
-    alt: "Image 7",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703157978/faisal-gidado/commercial/product_5_c4oywg.jpg",
+    alt: "product-Image-5",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894568/Commercial-8_i0wje0.jpg",
-    alt: "Image 8",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703158026/faisal-gidado/commercial/product_6_wwyrf5.jpg",
+    alt: "product-Image-6",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1702894568/Commercial-9_mh04ec.jpg",
-    alt: "Image 9",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703158031/faisal-gidado/commercial/product_7_fafyg8.jpg",
+    alt: "product-Image-7",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703158008/faisal-gidado/commercial/product_8_k0ywio.jpg",
+    alt: "product-Image-8",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703158012/faisal-gidado/commercial/product_9_aq4dbc.jpg",
+    alt: "product-Image-9",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703158278/faisal-gidado/commercial/product_10_pybpxu.jpg",
+    alt: "product-Image-10",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703158020/faisal-gidado/commercial/product_11_k19j3t.jpg",
+    alt: "product-Image-11",
+  },
+  {
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703158020/faisal-gidado/commercial/product_11_k19j3t.jpg",
+    alt: "product-Image-12",
   },
 ];
 export const cinematographyData = [
