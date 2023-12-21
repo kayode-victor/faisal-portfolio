@@ -22,7 +22,15 @@ const Header = () => {
   return (
     <header className="sticky-header padding-container max-container flex gap-4 flexBetween py-3">
       <Link href="/">
-        <Image src={"/dashLogo.png"} alt="hImg" width={130} height={30} />{" "}
+        <div className="logoContainer">
+          <Image
+            src="/dashLogo.png"
+            alt="logo"
+            width={120}
+            height={30}
+            className="logoImage"
+          />
+        </div>{" "}
       </Link>
       <Link
         href="/contact"
