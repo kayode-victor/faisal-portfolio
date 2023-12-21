@@ -321,7 +321,7 @@ export const commercialData = [
     alt: "product-Image-11",
   },
   {
-    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703158020/faisal-gidado/commercial/product_11_k19j3t.jpg",
+    src: "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703158005/faisal-gidado/commercial/product_12_ck6yl5.jpg",
     alt: "product-Image-12",
   },
 ];
