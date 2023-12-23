@@ -329,9 +329,17 @@ export const commercialData = [
 export const cinematographyData = [
   {
     videoSrc: "https://youtu.be/mCz8uUS72gA",
+    thumbNail:
+      "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703304529/faisal-gidado/thumbnails/all-day_mcmblf.png",
+    alt: "Video-Image-1",
+    title: "allday HD 1080p",
   },
 
   {
     videoSrc: "https://youtu.be/5anH_g1DLvs",
+    thumbNail:
+      "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703304525/faisal-gidado/thumbnails/fuuji_ybabrg.png",
+    alt: "Video-Image-2",
+    title: "FUJIISART",
   },
 ];
