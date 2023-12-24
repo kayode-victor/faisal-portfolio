@@ -36,7 +36,7 @@ export default function Cinematography() {
   };
 
   return (
-    <section className="padding-container max-container mt-16 mb-10 lg:mt-20 lg:mb-44">
+    <section className="padding-container max-container mt-16 mb-10 lg:mt-20 lg:mb-10">
       <div className="justify-center px-10 lg:px-16">
         <div className="text-center py-3">
           <p className="text-white text-[16px] lg:text-[20px]">

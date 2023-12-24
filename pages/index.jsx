@@ -57,7 +57,7 @@ const Home = () => {
         className="flex flex-l relative lg:mt-16"
       >
         <Image
-          src={"/hero2.png"}
+          src={"/hero1.png"}
           alt="heroImg"
           width={300}
           height={300}
