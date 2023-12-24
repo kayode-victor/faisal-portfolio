@@ -59,9 +59,9 @@ const Home = () => {
         <Image
           src={"/hero1.png"}
           alt="heroImg"
-          width={300}
-          height={300}
-          className="w-[240px] h-auto lg:w-full relative"
+          width={600}
+          height={600}
+          className="w-[275px] h-auto lg:w-full lg:right-8 lg:top-12 relative"
         />
         <motion.span
           className="bg-secondary blur-lg h-60 w-60 lg:h-[400px] lg:w-[400px] xl:h-[500px] xl:w-[500px] absolute  rounded-br-none rounded-full -z-10 lg:top-10 lg:right-10"
