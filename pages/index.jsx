@@ -61,7 +61,7 @@ const Home = () => {
           alt="heroImg"
           width={600}
           height={600}
-          className="w-[275px] h-auto xl:w-full lg:w-full xl:right-8 xl:top-12 lg:right-8 lg:top-14 relative"
+          className="w-[275px]  h-auto xl:w-full lg:w-full xl:right-8 xl:top-12 lg:right-8 lg:top-14  relative"
         />
         <motion.span
           className="bg-secondary blur-lg h-60 w-60 lg:h-[400px] lg:w-[400px] xl:h-[500px] xl:w-[500px] absolute  rounded-br-none rounded-full -z-10 lg:top-10 lg:right-10"
