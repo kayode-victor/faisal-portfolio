@@ -332,7 +332,7 @@ export const cinematographyData = [
     thumbNail:
       "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703304529/faisal-gidado/thumbnails/all-day_mcmblf.png",
     alt: "Video-Image-1",
-    title: "allday HD 1080p",
+    title: "ALLDAY HD 1080p",
   },
 
   {
@@ -341,5 +341,33 @@ export const cinematographyData = [
       "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703304525/faisal-gidado/thumbnails/fuuji_ybabrg.png",
     alt: "Video-Image-2",
     title: "FUJIISART",
+  },
+  {
+    videoSrc: "https://youtu.be/3C8c3Xg1DBQ",
+    thumbNail:
+      "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703403361/faisal-gidado/thumbnails/RAVE_jh0cux.png",
+    alt: "Video-Image-3",
+    title: "FASHION-EVENT",
+  },
+  {
+    videoSrc: "https://youtu.be/fWtn5xQm2a0",
+    thumbNail:
+      "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703403365/faisal-gidado/thumbnails/end_of_the_year_isfwib.png",
+    alt: "Video-Image-4",
+    title: "END-OF-THE-YEAR-PARTY",
+  },
+  {
+    videoSrc: "https://youtu.be/kk-QRbPX_1g",
+    thumbNail:
+      "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703403361/faisal-gidado/thumbnails/corprate_event_tiryid.png",
+    alt: "Video-Image-5",
+    title: "CORPORATE-EVENT",
+  },
+  {
+    videoSrc: "https://youtu.be/CyJfv88xAPg",
+    thumbNail:
+      "https://res.cloudinary.com/dikzx4eyh/image/upload/v1703403358/faisal-gidado/thumbnails/corporate_event_2_lmia0x.png",
+    alt: "Video-Image-6",
+    title: "CORPORATE-EVENT-2",
   },
 ];
