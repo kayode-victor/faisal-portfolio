@@ -21,7 +21,7 @@ const About = () => {
             <h2 className="h2">
               Photographer & <span className="text-secondary">Film</span>Maker
             </h2>
-            <p className="text-start text-[14px]  lg:text-[14px] px-2  lg:text-start lg:px-0 lg:mb-2">
+            <p className="text-start text-[14px]  lg:text-[16px] px-2  lg:text-start lg:px-0 lg:mb-2">
               Founded by Faisal Gidado in 2014, Dash Media transforms
               life&apos;s moments into timeless memories through the artisty of
               photography and cinematography. With a commitment to filling
