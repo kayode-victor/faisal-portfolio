@@ -6,14 +6,14 @@ import fadeIn from "@/components/Variants";
 
 const Home = () => {
   return (
-    <section className="padding-container max-container page flex flex-col flexCenter lg:flex-row lg:gap-10 mt-16 lg:mt-0">
+    <section className="padding-container max-container page flex flex-col flexCenter lg:flex-row lg:gap-10 mt-10 lg:mt-0">
       {/*left*/}
       <motion.div
         variants={fadeIn("down", 0.4)}
         initial="hidden"
         animate="show"
         exit="hidden"
-        className=" flex-1 flexCenter flex-col lg:items-start  mt-5 lg:mt-0"
+        className=" flex-1 flexCenter flex-col lg:items-start  mt-2 lg:mt-0"
       >
         <h2 className="h2 font-bold">
           Hi,
@@ -34,7 +34,7 @@ const Home = () => {
           </span>
         </h2>
 
-        <p className="py-3 text-[20px]  font-medium text-center">
+        <p className="py-3 text-[20px]  font-medium text-center lg:text-justify md:text-justify">
           &apos;&apos; Life is a blank canvas and I&apos;m filling it with
           creativity &apos;&apos;
         </p>

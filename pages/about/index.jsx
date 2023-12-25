@@ -7,7 +7,7 @@ import fadeIn from "@/components/Variants";
 const About = () => {
   const [index, setIndex] = useState(0);
   return (
-    <section className="padding-container max-container lg:page flex flex-col flexCenter lg:flex-row lg:gap-10 mt-16 mb-16 lg:mb-4 lg:mt-0">
+    <section className="padding-container max-container lg:page flex flex-col flexCenter lg:flex-row lg:gap-10 mt-16 mb-10 lg:mb-4 lg:mt-0 ">
       {/*left*/}
       <motion.div
         variants={fadeIn("left", 0.4)}
@@ -18,45 +18,50 @@ const About = () => {
       >
         <div>
           <div>
-            <h2 className="h2  lg:py-2">
+            <h2 className="h2">
               Photographer & <span className="text-secondary">Film</span>Maker
             </h2>
-            <p className="text-start text-[14px] lg:text-[18px] px-2 my-5 lg:py-2 lg:text-start lg:px-3 lg:mb-5">
-              Hi, I am Faisal Gidado, the creative force behind Dash Media in
-              Lagos. With a degree in Screen Production, I use photography to
-              capture moments uniquely. Since 2017, Dash Media has been
-              delivering premium Photography, Cinematography, and Editing
-              services, both locally and globally.
+            <p className="text-start text-[14px]  lg:text-[14px] px-2  lg:text-start lg:px-0 lg:mb-2">
+              Founded by Faisal Gidado in 2014, Dash Media transforms
+              life&apos;s moments into timeless memories through the artisty of
+              photography and cinematography. With a commitment to filling
+              life&apos;s blank canvas with creativity and emotion, the
+              dedicated team captures diverse perpectives from intimate
+              portraits to grand events. Dash Media&apos;s history reflect a
+              seamless and stress-free approach, allowing clients to effortively
+              relive the beauty woven onto each moment. Join Dash Media for an
+              extraordinary celebration of life&apos;s fleeting moments and
+              creation of timeless memories.
             </p>
           </div>
-        </div>
 
-        <div className="mb-2">
-          <div className="flex py-4 lg:py-2 lg:flex flex-1 px-2 gap-2">
-            <div className="relative flex-1 px-4 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-              <h4 className="text-secondary font-extrabold text-2xl">
-                <CountUp start={195} end={200} duration={5} delay={1} />+
-              </h4>
-              <p className="uppercase text-[13px] font-bold leading-4 pt-2">
-                Happy clients
-              </p>
-            </div>
-            <div className="relative flex-1 px-4 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-              <h4 className="text-secondary font-extrabold text-2xl">
-                <CountUp start={1} end={5} duration={5} delay={1} />
-                K+
-              </h4>
-              <p className="uppercase text-[13px] font-bold leading-4 pt-2">
-                Social-Media following
-              </p>
-            </div>
-            <div className="relative flex-1 px-4 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
-              <h4 className="text-secondary font-extrabold text-2xl">
-                <CountUp start={4} end={9} duration={5} delay={1} />+
-              </h4>
-              <p className="uppercase text-[13px] font-bold leading-4 pt-2">
-                year experience
-              </p>
+          <div className="mb-2">
+            <div className="flex py-4 lg:py-2 lg:flex flex-1 px-2 gap-2">
+              <div className="relative flex-1 px-4 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+                <h4 className="text-secondary font-extrabold text-2xl">
+                  <CountUp start={195} end={200} duration={5} delay={1} />+
+                </h4>
+                <p className="uppercase text-[13px] font-bold leading-4 pt-2">
+                  Happy clients
+                </p>
+              </div>
+              <div className="relative flex-1 px-4 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+                <h4 className="text-secondary font-extrabold text-2xl">
+                  <CountUp start={1} end={5} duration={5} delay={1} />
+                  K+
+                </h4>
+                <p className="uppercase text-[13px] font-bold leading-4 pt-2">
+                  Social-Media following
+                </p>
+              </div>
+              <div className="relative flex-1 px-4 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+                <h4 className="text-secondary font-extrabold text-2xl">
+                  <CountUp start={4} end={9} duration={5} delay={1} />+
+                </h4>
+                <p className="uppercase text-[13px] font-bold leading-4 pt-2">
+                  year experience
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -67,7 +72,7 @@ const About = () => {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="flex flex-col  w-full xl:max-w-[47%] h-[488px]"
+        className="flex flex-col  w-full md:max-w-[50%] xl:max-w-[47%] h-[488px]"
       >
         {/*Expertise*/}
         <div className="mb-2 lg:mb-10 flex flex-col gap-2 mx-auto min-w-[90%] xl:ml-0 lg:mt-10">
