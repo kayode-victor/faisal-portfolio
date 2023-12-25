@@ -44,24 +44,24 @@ export const aboutData = [
     title: "Experience",
     info: [
       {
-        title: "Photographer & Cinematographer - Dash Media",
-        other: "Founder of Dash Media",
+        title: "Founder, Photographer & Cinematographer",
+        other: "@ Dash Media",
         year: "2014 - Present",
       },
       {
-        title: "Photographer & Cinematographer - Corporate Studios",
-        other: "Created pictures for high profile individuals",
+        title: "Photographer & Cinematographer ",
+        other: "@ Corporate Studios",
         year: "2021 - 2022",
       },
 
       {
-        title: "Photographer - Emirates Airline Festival of Literature",
-        other: "Participated in the festival's media coverage.",
+        title: "Photographer",
+        other: "@ Emirates Airline Festival of Literature",
         year: "2016 - 2017",
       },
       {
-        title: "Photographer - Shabab Al-Ahli Football Club",
-        other: "Media Coverage during home games.",
+        title: "Photographer(Media coverage team)",
+        other: "@ Shabab Al-Ahli Football Club",
         year: "2015 - 2016",
       },
     ],
