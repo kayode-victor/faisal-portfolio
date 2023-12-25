@@ -6,7 +6,7 @@ import fadeIn from "@/components/Variants";
 
 const Home = () => {
   return (
-    <section className="padding-container max-container page flex flex-col flexCenter lg:flex-row lg:gap-10 mt-10 lg:mt-0">
+    <section className="padding-container max-container page flex flex-col flexCenter lg:flex-row lg:gap-10 mt-16 lg:mt-0">
       {/*left*/}
       <motion.div
         variants={fadeIn("down", 0.4)}
