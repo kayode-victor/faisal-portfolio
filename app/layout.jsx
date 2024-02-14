@@ -10,26 +10,29 @@ export default function Layout({ children }) {
   return (
     <div className={inter.className}>
       <Head>
-        <title>Photography Portfolio | Faisal Gidado</title>
+        <title>Faisal Gidado | Photography Portfolio</title>
         <meta
           name="description"
           content="Explore stunning photography by Faisal Gidado, a talented photographer based in Quebec, Canada."
         />
         <meta
           name="keywords"
-          content="photography, photographer,Quebec, Canada, portfolio, images, photos, film maker, videography"
+          content="Faisal Gidado, photography, photographer, Quebec, Canada, portfolio, images, photos, film maker, videography"
         />
         <meta name="author" content="Your Name" />
         <meta
           property="og:title"
-          content="Photography Portfolio | Faisal gidado"
+          content="Faisal Gidado | Photography Portfolio"
         />
         <meta
           property="og:description"
           content="Explore stunning photography by Faisal Gidado, a talented photographer based in Quebec, Canada."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.yourwebsite.com/" />
+        <meta
+          property="og:url"
+          content="https://faisal-gidado-portfolio.vercel.app"
+        />
         <meta
           property="og:image"
           content="https://res.cloudinary.com/dikzx4eyh/image/upload/v1707875811/faisal-gidado/main/dashLogo_cwrbuu.png"
