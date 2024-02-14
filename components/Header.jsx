@@ -29,7 +29,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="sticky-header padding-container max-container flex gap-4 justify-between py-3">
+    <header className="sticky-header padding-container max-container  flex gap-4 justify-between items-center py-1">
       <Link href="/">
         <div className="logoContainer">
           <Image
@@ -90,9 +90,9 @@ const Header = () => {
 
       <Link
         href="/contact"
-        className="hidden lg:flex btn_dark_rounded px-4  rounded-full justify-center items-center gap-2 font-semibold"
+        className="hidden lg:flex h-12 px-2 rounded-full justify-center items-center gap-2 font-semibold btn_dark_rounded"
       >
-        <span>Contact Me</span>
+        <span className="">Contact Me</span>
         <span className="h-5 w-5 rounded-full flexCenter">
           <HiArrowRight />
         </span>
