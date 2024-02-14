@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -29,10 +29,7 @@ export default function Layout({ children }) {
           content="Discover the captivating world of photography by Faisal Gidado, an esteemed photographer based in Quebec, Canada. Explore a diverse collection of breathtaking images, including mesmerizing landscapes, soulful portraits, vibrant events, and compelling street photography."
         />
         <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://faisal-gidado-portfolio.vercel.app"
-        />
+        <meta property="og:url" content="https://dashmedia.vercel.app" />
         <meta
           property="og:image"
           content="https://res.cloudinary.com/dikzx4eyh/image/upload/v1707875811/faisal-gidado/main/dashLogo_cwrbuu.png"
