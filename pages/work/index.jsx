@@ -15,7 +15,7 @@ import "swiper/css/autoplay";
 
 const Work = () => {
   return (
-    <section className="padding-container max-container mt-24 lg:mt-24">
+    <section className="padding-container max-container mt-24 lg:mt-24 mb-10 lg:mb-0">
       {/*title*/}
       <motion.div
         variants={fadeIn("down", 0.4)}

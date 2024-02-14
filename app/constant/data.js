@@ -10,6 +10,15 @@ import { FaImages, FaVideo } from "react-icons/fa";
 
 //nav Data
 export const navData = [
+  { name: "Home", path: "/" },
+  { name: "About", path: "/about" },
+  { name: "Portfolio", path: "/work" },
+  { name: "Testimonials", path: "/testimonials" },
+  { name: "Contact", path: "/contact" },
+];
+
+//nav2 data
+export const nav2Data = [
   { name: "Home", path: "/", icon: <HiHome /> },
   { name: "About", path: "/about", icon: <HiUser /> },
   { name: "Portfolio", path: "/work", icon: <HiRectangleGroup /> },

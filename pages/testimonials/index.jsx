@@ -13,7 +13,7 @@ import { testimonialData } from "@/app/constant/data";
 
 const Testimonials = () => {
   return (
-    <section className="padding-container max-container lg:py-16 flex flex-col flexCenter md:flex-row md:gap-8 lg:gap-30 mt-24 lg:mt-24">
+    <section className="padding-container max-container lg:py-16 mb-6 lg:mb-0 flex flex-col flexCenter md:flex-row md:gap-8 lg:gap-30 mt-24 lg:mt-24">
       {/*title*/}
       <motion.div
         variants={fadeIn("left", 0.4)}
