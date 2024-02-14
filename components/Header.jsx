@@ -6,6 +6,7 @@ import { FiMenu } from "react-icons/fi";
 import { IoCloseOutline } from "react-icons/io5";
 import { navData } from "@/app/constant/data";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const Header = () => {
   const pathname = usePathname();
@@ -31,10 +32,13 @@ const Header = () => {
     <header className="sticky-header padding-container max-container flex gap-4 justify-between py-3">
       <Link href="/">
         <div className="logoContainer">
-          <p className="text-3xl text-white">
-            Faisal
-            <span className="font-bold pl-2 text-secondary">Gidado</span>
-          </p>
+          <Image
+            src="/dashLogo.png"
+            alt="logo"
+            width={120}
+            height={30}
+            className="logoImage"
+          />
         </div>
       </Link>
       {/* Mobile menu toggle */}
