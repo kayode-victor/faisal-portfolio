@@ -12,6 +12,22 @@ const Header = () => {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const handleScroll = () => {
+    const isTop = window.scrollY < 30;
+    const header = document.querySelector(".sticky-header");
+
+    if (isTop) {
+      header.classList.remove("scrolled");
+    } else {
+      header.classList.add("scrolled");
+    }
+  };
+
+  if (typeof window !== "undefined") {
+    // Check if window is defined (to avoid issues during server-side rendering)
+    window.addEventListener("scroll", handleScroll);
+  }
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
